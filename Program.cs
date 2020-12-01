@@ -7,7 +7,9 @@ namespace AoC2020
     {
         private static void Main()
         {
+            // Day 1
             Console.WriteLine(PartOne.Solve());
+            Console.WriteLine(PartTwo.Solve());
         }
     }
 }

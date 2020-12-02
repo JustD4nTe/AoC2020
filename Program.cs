@@ -1,5 +1,4 @@
 ﻿using System;
-using AoC2020.Day1;
 
 namespace AoC2020
 {
@@ -8,8 +7,11 @@ namespace AoC2020
         private static void Main()
         {
             // Day 1
-            Console.WriteLine(PartOne.Solve());
-            Console.WriteLine(PartTwo.Solve());
+            // Console.WriteLine(Day1.PartOne.Solve());
+            // Console.WriteLine(Day1.PartTwo.Solve());
+
+            // Day 2
+            Console.WriteLine(Day2.PartOne.Solve());
         }
     }
 }

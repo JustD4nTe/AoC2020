@@ -8,7 +8,7 @@ namespace AoC2020.Day1
     {
         public static int Solve()
         {
-            using var sr = new StreamReader("data.txt");
+            using var sr = new StreamReader("Day1/data.txt");
 
             var numbers = sr.ReadToEnd()
                       .Split("\r\n")

@@ -19,7 +19,8 @@ namespace AoC2020
             // Console.WriteLine(Day3.PartTwo.Solve());
 
             // Day 4
-            Console.WriteLine(Day4.PartOne.Solve());
+            // Console.WriteLine(Day4.PartOne.Solve());
+            Console.WriteLine(Day4.PartTwo.Solve());
         }
     }
 }

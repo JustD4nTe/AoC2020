@@ -7,7 +7,7 @@ namespace AoC2020.Day4
     {
         public static int Solve()
         {
-            var sr = new StreamReader("Day4/data.txt");
+            using var sr = new StreamReader("Day4/data.txt");
             var data = sr.ReadToEnd().Split("\n\n");
 
             var validPassportCount = 0;

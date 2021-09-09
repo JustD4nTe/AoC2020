@@ -31,5 +31,20 @@ namespace AoC2020.Day20
 
             return res;
         }
+
+        public static T[][] Transpose<T>(T[][] arr, int n)
+        {
+            var res = new T[n][];
+
+            for (var i = 0; i < n; i++)
+            {
+                res[i] = new T[n];
+
+                for (var j = 0; j < n; j++)
+                    res[i][j] = arr[j][i];
+            }
+
+            return res;
+        }
     }
 }

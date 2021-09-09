@@ -77,5 +77,15 @@ namespace AoC2020.Day20
                 new(refl4, Id)
             };
         }
+
+        public string[] GetStringImage()
+        {
+            var res = new string[_n - 2];
+
+            for (var i = 0; i < _n - 2; i++)
+                res[i] = new string(Image[i + 1][1..^1]);
+
+            return res;
+        }
     }
 }
